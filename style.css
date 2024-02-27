@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #8e2eca;
+    color: white;
+}
+header{
+    display: flex;
+    justify-content:flex-end;
+    height: 15vh;
+    align-items: center;
+    margin: 0.8rem;
+    padding: 5rem;
+}
+header ul{
+    display: flex;
+    list-style: none;
+    width: 40%;
+    justify-content: space-around;
+}
+header ul li{
+    font-size: 1.5rem;
+}
+header ul img{
+    height: 2rem;
+}
+main{
+    display: flex;
+}
+main .right{
+    width: 30%;
+}
+main .right{
+    display: grid;
+    grid-template-rows: 110% 30%;
+}
+
+main .right .top{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .right .top p{
+    writing-mode: vertical-lr;
+    font-size: larger;
+    margin: 4rem;
+}
+main .right .top h1{
+    font-size:7rem;
+    margin-left: 7rem;
+}
+main .right .bottom{
+    background-color: aliceblue;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items:center ;
+    justify-content: center;
+    position: relative;
+}
+.Limited{
+    background: #212121;
+    color: azure;
+    padding: 1rem;
+    right: 0;
+    writing-mode: vertical-lr;
+    position: absolute;
+    top: -30%;
+
+}
+main .left{
+    display: grid;
+    grid-template-rows: 110% auto;
+    padding-left: 15rem;
+    width: 65%;
+}
+main .left img{
+    height: 15rem;
+    filter: drop-shadow(8px 8px 10px rgb(137,13,189));
+}
+
+main .left .top{
+    display: flex;
+    align-items: center;
+}
+main .left .top .a img{
+    height: 30rem;
+}
+main .left .top .b{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90%;
+    width: 80%;
+    align-items: center;
+}
+main .left .top .b h2{
+    font-size: 5rem;
+    margin-top: 9rem;
+    margin-right: 6rem;
+}
+main .left .top .b ul li{
+    list-style: none;
+    line-height: 2.5rem;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+    margin-right: 6rem;
+}
+main .left .Bottom{
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    width: 80%;
+    margin-top: 3rem;
+    font-size: 1.5rem;
+}
